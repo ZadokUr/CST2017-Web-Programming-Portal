@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>CST2017 Web Programming</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<style type="text/css">
+		/* Split the screen in half */
+		.split {
+			height: 100%;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			overflow-x: hidden;
+			padding-top: 20px;
+		}
+
+		/* Control the left side */
+		.left {
+			left: 0;
+			width: 25%;
+			background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+		}
+
+
+		/* Control the right side */
+		.right {
+			width: 75%;
+			right: 0;
+			background-color: #fcfcff;
+			overflow-y: auto;
+		}
+
+		/* If you want the content centered horizontally and vertically */
+		.centered {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		#accordion {
+			width: 60%;
+		}
+
+		#accordion ul {
+			background: #fff;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row">
+		<div class="split left z-depth-2">
+
+			<p style="font-size: 3vw; color: #fff; text-align: center; padding-top: 0; margin-top: 0" class="centered">
+				<span style="font-size: 1vw; color: #fff; padding-bottom: 0; margin-bottom: 0;">CST-2017</span><br>
+				WEB
+				PROGRAMMING
+
+				<span style="font-size: 1vw; color: #fff; padding-bottom: 0; margin-bottom: 0;">Instructed by: <a href="mailto:20040026@hznu.edu.cn">Bin
+						Hu</a></span><br>
+			</p>
+		</div>
+
+		<div class="split right">
+			<div class="centered" id="accordion">
+				<ul class="collapsible">
+						<li>
+						<div class="collapsible-header">Assignment 1</div>
+						<div class="collapsible-body">
+							<span><strong>1. Create an HTML file. The web page should show the following text:</strong><br>
+								<i>“This is my first HTML file. So easy! I think I will learn it well.”</i>
+							</span><br><br>
+							<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question1.docx">Download
+								Detailed Question</a>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 2</div>
+						<div class="collapsible-body"><span><strong>1. Create an HTML file. The web page should contain the following:</strong><br>
+								i. Your name<br>
+								ii. Your age<br>
+								iii. Your class<br>
+								iv. Your favourite food<br><br>
+								<span><strong>2. Structural requirements:</strong> <br>
+									i. Heading <br>
+									ii. Subheading <br>
+									iii. Paragraph
+								</span>
+							</span><br><br>
+							<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question2.docx">Download
+								Detailed Question</a></div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 3</div>
+						<div class="collapsible-body"><span><strong>1. Edit the Exercise 2 file "index.html" as required:</strong><br>
+								i. Improve the structure of the HTML document <br>
+								ii. Add a title called "Self Introduction". <br>
+								(The title appears at the top of the browser window)
+							</span><br><br>
+							<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question3.docx">Download
+								Detailed Question</a>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 4</div>
+						<div class="collapsible-body"><span><strong>1. Edit the Exercise 3 file "index.html" as required:</strong><br>
+								i) Give your HTML some style <br><br>
+								<span><strong>Style requirements</strong></span><br>
+								i. The container body’s background color needs #d2b48c.<br>
+								ii. The container body’s left and right margins are 20% of the browser window.<br>
+								iii. The container body has a dotted and black border whose width is 2px.<br>
+								iv. The container body has a padding whose width is 10px;<br>
+								v. The fonts in the container body are sans-serif.
+
+							</span><br><br>
+							<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question4.docx">Download
+								Detailed Question</a></div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 5</div>
+						<div class="collapsible-body"><span><strong>You have been provided with some material in the folder named <i>lounge</i>.
+									You need to complete the following:</strong><br>
+								1. Classify the material.<br><br>
+								2. <strong>The file <i>lounge.html</i> is our index:</strong> <br>
+								i. When we click the word <i>elixirs</i>, the page should jump to <i>elixir.html</i>.<br>
+								ii. When we click the words <i>detailed directions</i>, the page should jump to <i>directions.html.</i><br>
+								iii. The pages <i>elixir.html</i> and directions.html both have a way to jump back to our index.<br>
+								iv. Create four pages to introduce details of the four cups of beverage. We can click each picture to jump. So,
+								there should not be details in the page elixir.html. The pages should all have a way to jump back to <i>elixir.html</i>.<br>
+								v. Improve the pages according to your own ideas.<br>
+
+
+							</span><br><br>
+							<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question5.zip">Download
+								Detailed Question</a>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 6</div>
+						<div class="collapsible-body"><span><strong>According to your own class schedule, create an the HTML structure of
+									the "timetable".</strong><br>
+
+								Please use the tag <i>&lttable&gt</i>.
+
+							</span><br><br>
+							<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question6.docx">Download
+								Detailed Question</a></div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 7</div>
+						<div class="collapsible-body"><span><strong>1. Please design and create the HTML structure for student
+									information sign up page. The HTML file saves as “index.html”. The web page contains the follow.</strong><br>
+								i) Give your HTML some style <br><br>
+								<span><strong>Style requirements</strong></span><br>
+								i. sign up form (form)<br>
+								ii. heading (h1)<br>
+								iii. name (text)<br>
+								iv. password (password)<br>
+								v. confirm password (password)<br>
+								vi. gender (radio)<br>
+								vii. hobby (checkbox)<br>
+								viii. college (select)<br>
+								ix. class (datalist)<br>
+								x. birthday (date)<br>
+								xi. grade (range, from freshman to senior)<br>
+								xii. email (email)<br>
+								xiii. favorite color (color)<br><br>
+
+								<i>(Download the question paper for more instructions from the button below)</i>
+							</span><br><br>
+							<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question7.docx">Download
+								Detailed Question</a>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 8</div>
+						<div class="collapsible-body"><span><strong>1. Please design and create the HTML structure for HZNU's Coffee Shop
+									index. The HTML file saves as “index.html”. The preview has been given below.</strong><br>
+								<i>Tip: You can get the coffee image by downloading the question.</i><br><br>
+
+								<span><strong>2. Please add CSS to your page. The CSS file should be saved as “style.css”.</strong><br>
+									i. Text color: #330000<br>
+									ii. Page background color: #ffffcc<br>
+									iii. Head and foot background color: #ccaa66<br>
+									iv. Left navigation bar background color: #e8d882<br>
+									v. Right body background color: #f1e8b0<br>
+									vi. Font family: Verdana<br>
+									vii. In addition to the mailbox hyperlink at the footer, remove the hyperlink underline.
+
+								</span><br><br>
+								<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question8.zip">Download
+									Detailed Question</a></div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 9</div>
+						<div class="collapsible-body"><span><strong>1. Please design and create the HTML structure for Global Press
+									index. The HTML file is saved as “index.html”.</strong><br>
+								<i>Tip: The preview and the needed material have been given in the detailed question file.</i><br><br>
+
+								<span><strong>2. Please add CSS to your page. The CSS file should be saved as “style.css”.</strong><br>
+									i. The page content area has a width of 930px and is horizontally centered.<br>
+									ii. The font size is 12px, the line height is 1.8em, and the color is #5f5f5f. <br>
+									iii. The document hyperlink color is #3a90ca.<br>
+									iv. The p font size is 12px and the line height is 1.8em.<br>
+									v. The navigation hyperlink color is #5f5f5f.<br>
+									vi. The h1 title color is #3a90c9, the font size is 30px, and the line height is 1.2em.<br>
+									vii. The h2 title color is #323a3f.<br>
+									viii. The span color inside the h2 title is #3a90ca.<br>
+									ix. When the mouse hovers over the navigation hyperlink, the current hyperlink's color is #fff and the
+									background color is #3a90c9.<br>
+									x. The width of the left side of the body content is 630px.<br>
+									xi. The width of the right side of the body content is 236px.<br>
+									xii. The picture in the left content area has a border width of 1px, a solid line, a color of #b7b7b7, and a
+									padding of 4px.<br>
+									xiii. The font color of the list item on the right is #959595.<br>
+									xiv. The hyperlink color of the list item in the right content area is #5f5f5f, and the hyperlink is not
+									underlined.<br>
+									xv. When the mouse hovers over the hyperlink in the right content area list item, the hyperlink color is
+									#3a90ca and the font is bold.
+
+
+								</span><br><br>
+								<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question9.zip">Download
+									Detailed Question</a></div>
+					<li>
+						<div class="collapsible-header">Assignment 10</div>
+						<div class="collapsible-body">
+							<p>
+								Do you still remember HZNU’s Coffee Shop index we designed in Exercise08? At that time, we had not yet designed
+								pages for other hyperlinks. Now, do it.
+							</p><br>
+							<span><strong>1. Please design and create the HTML structure for the pages Support, About Us, Blog and Contact
+									Us of Global Press. The HTML files should be saved as “support.html”, “aboutus.html”,” blog.html” and
+									“contactus.html”.</strong><br>
+								<span><strong>2. We can click on the hyperlink to jump to the corresponding page. And the selected navigation
+										item will be highlighted. The navigation items About Us and Contact Us are merged into one navigation item
+										named Us. The merged navigation item is a drop-down box.
+										The example preview has been given below. You should design them according to your own wishes.
+									</strong><br>
+								</span><br><br>
+								<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question10.docx">Download
+									Detailed Question</a>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header">Assignment 11</div>
+						<div class="collapsible-body">
+							<p>
+								Do you still remember Global Press index we designed in Exercise09? At that time, we had not yet designed pages
+								for other hyperlinks. Now, do it.
+							</p><br>
+							<span><strong>1. Please design and create the HTML structure for the pages Menu, Music and Jobs of HZNU's Coffee
+									Shop. The HTML files should be saved as “menu.html”, “music.html” and “jobs.html”.</strong><br>
+								<span><strong>2. We can click on the hyperlink to jump to the corresponding page.
+										The example preview has been given in the detailed question file. You should design them according to your
+										own wishes.</strong><br>
+								</span><br><br>
+								<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="exercises/question11.docx">Download
+									Detailed Question</a>
+						</div>
+					</li>
+					<li>
+							<div class="collapsible-header">Download Sublime Text Code Editor</div>
+							<div class="collapsible-body">
+								<span><strong> Click to download Sublime Text Code Editor </strong><br>
+								</span><br><br>
+								<a class="waves-effect waves-teal btn-small" style="background: #8D0B93 ;" href="assets/Sublime%20Text%20Build%203176%20x64%20Setup.exe">Download
+									Sublime Text 3</a>
+							</div>
+						</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var elem = document.querySelector('.collapsible');
+		var instance = M.Collapsible.init(elem, {
+			accordion: true
+		});
+	</script>
+</body>
+
+</html>
